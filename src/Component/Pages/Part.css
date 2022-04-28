@@ -1,0 +1,21 @@
+
+.particles {
+    position: absolute;
+    height: 101vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    color: white;
+    background: rgb(0, 0, 0);
+    
+    
+  }
+  @media only screen and (max-width: 480px) {
+    .particles {
+        height: 800px;
+        width: 100%;
+        
+    }
+}

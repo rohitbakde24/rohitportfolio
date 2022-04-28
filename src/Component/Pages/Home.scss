@@ -1,0 +1,77 @@
+$myColor:  #FFC83D
+;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch:wght@700&display=swap');
+.title{
+    color: white;
+    font-family: 'Rubik Glitch', sans-serif;
+    text-align: center;
+    z-index: -1;
+    
+}
+.color{
+    color:$myColor;
+
+}
+
+ @media only screen and (max-width: 480px) {
+    .type{
+        font-weight: 900;
+    }
+}
+.myname{
+    position: absolute;
+    margin-top: 30vh;
+    color: white;
+    width: 520px;
+    
+}
+/* mopbile view */
+@media only screen and (max-width: 480px) {
+    .myname{
+        margin-top: 15vh;
+        width: 96%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+}
+
+.rohit{
+    height: 86vh;
+    margin-top: 11.5vh;
+}
+@media only screen and (max-width: 480px) {
+    .front{
+        display: block;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .rohit{
+        height: 420px;
+        width: 300px; 
+        margin-top: 365px; 
+        margin-left: 4%;
+    }
+}
+/* button */
+
+.mybtn{
+    border-radius: 40px;
+    padding: 10px 30px;
+    background-color: $myColor;
+    border: none;
+    color: rgb(31, 20, 20);
+}
+.mybtn:hover{
+    border: 2px solid $myColor;
+    background-color: black;
+    color: white;
+
+}
+.hire{
+    color: rgb(31, 20, 20);
+    text-decoration: none;
+}
+.hire:hover{
+    color:white;
+}

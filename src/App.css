@@ -1,0 +1,10 @@
+.all-bg{
+    background-color: rgb(255, 255, 255);
+}
+.mytop{
+    background-color: RED;
+    text-decoration: NONE;
+    outline: none !important;
+    border: 2px solid blue !important;
+    border-radius: NONE;
+}

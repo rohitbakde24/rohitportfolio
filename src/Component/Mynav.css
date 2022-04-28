@@ -1,0 +1,27 @@
+.links{
+  color:white;
+  text-decoration: none;
+  text-align: end;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 480px) {
+  .links{
+      display: block;
+      text-align: left;
+      border-bottom: 1px solid rgba(61, 61, 61, 0.397);
+  }
+}
+.links:hover{
+  color:#FFC83D
+}
+.isCurrent{
+  color: #FFC83D;
+}
+.icon{
+  display: flex;
+  z-index: 10;
+}
+.nav-bg{
+  background-color: black;
+  z-index: 1;
+}

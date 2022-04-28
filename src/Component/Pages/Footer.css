@@ -1,0 +1,13 @@
+
+.footer-bg{
+    background-color: #121212 !important;
+    text-align: center;
+    padding: 50px ;
+   
+}
+.white{
+    color: white;
+}
+.link:hover{
+    color: #797979;
+}

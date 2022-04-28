@@ -1,0 +1,29 @@
+.contact-bg{
+    background-color: black;
+    color: white;
+    padding-bottom: 180px;
+}
+
+.myicon{
+    color: #FFC83D;
+    padding-left: 4px;
+}
+.myicon:hover{
+    color: #7c6d19;
+}
+.contact-detail{
+    padding-top: 40px;
+    padding-left: 120px;
+}
+@media only screen and (max-width: 480px) {
+    .contact-detail{
+   padding-left: 0%;
+   margin-left: 46px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+    }
+}
+.social-media{
+    padding-left: 100px;
+    padding-top: 20px;
+}

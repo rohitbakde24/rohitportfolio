@@ -1,0 +1,73 @@
+
+.progress-bar{
+    background-color: black !important;
+    
+}
+.progress-bar{
+    clear: all;
+}
+.skills{
+    text-align: left;
+    padding-top: 100px;
+}
+@media only screen and (max-width: 480px) {
+    .skills{
+        padding-top: 40px;
+    }
+}
+.icon{
+    display: inline;
+}
+.center-progress{
+    margin-left: 5%;
+}
+@media only screen and (max-width: 480px) {
+    .center-progress{
+        margin-left: 1%;
+        margin-bottom: 10%;
+    }
+}
+.text{
+    margin-left: -130px;
+}
+@media only screen and (max-width: 480px) {
+    .text{
+        margin-left: -25px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mob-margin{
+        margin-bottom: 50px;
+    }
+}
+.javascript-text{
+    text-align: left;
+    margin-left: 3%;
+}
+@media only screen and (max-width: 480px) {
+    .javascript-text{
+        text-align: left;
+        margin-left: 12%;
+    }
+}
+.second-row{
+    padding-top: 50px;
+    padding-left: 270px;
+    padding-right: 90px;
+}
+@media only screen and (max-width: 480px) {
+    .second-row{
+        padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 1%;
+    }
+}
+.python-text{
+    margin-left: -250px;
+}
+@media only screen and (max-width: 480px) {
+    .python-text{
+        margin-left: -20px;
+    }
+}
